@@ -3,3 +3,4 @@ __pycache__
 dnn_model
 venv
 los_angeles.mp4
+yolov5s.pt
