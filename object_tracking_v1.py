@@ -6,7 +6,7 @@ def main():
     cap = cv2.VideoCapture('los_angeles.mp4')
     
 
-    model = ObjectDetection()
+    model = ObjectDetection(model_name='yolov5m')
 
     while True:
         ret, frame = cap.read()
