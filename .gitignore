@@ -2,7 +2,6 @@ __pycache__
 .ipynb_checkpoints
 dnn_model
 venv
-los_angeles.mp4
 yolov5s.pt
 yolov5l.pt
 yolov5m.pt
