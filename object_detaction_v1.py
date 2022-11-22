@@ -27,7 +27,7 @@ class ObjectDetection:
         results = self.model(frame, size)
         frame = np.array(results.render()[0]) 
 
-        return frame
+        return frame, results
 
     def check_model_from_available(self, model_name):
         if model_name not in ObjectDetection.MODELS:

@@ -14,7 +14,7 @@ def main():
         if not ret:
             break
 
-        frame = model.detect(frame)
+        frame, results = model.detect(frame)
         cv2.imshow("frame", frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
